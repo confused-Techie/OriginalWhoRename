@@ -1,0 +1,21 @@
+{
+  "name": "@confused-techie/originalwhorename",
+  "version": "1.0.2",
+  "description": "Rename Original Doctor Who Files for Jellyfin",
+  "bin": {
+    "originalwhorename": "bin/originalwhorename.js"
+  },
+  "author": "confused-Techie",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/confused-Techie/OriginalWhoRename.git"
+  },
+  "bugs": {
+    "url": "https://github.com/confused-Techie/OriginalWhoRename/issues"
+  },
+  "homepage": "https://github.com/confused-Techie/OriginalWhoeRename",
+  "dependencies": {
+    "prompts": "^2.4.2"
+  }
+}
