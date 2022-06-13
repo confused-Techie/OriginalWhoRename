@@ -18,6 +18,7 @@ async function fileManipulation(filename, config) {
 }
 
 var xvid = [
+  // ============= START SEASON 1 ===============
   { for: "Doctor Who - S01E01 (001) - An Unearthly Child (1) - An Unearthly Child", to: "S01E01" },
   { for: "Doctor Who - S01E01 (001) - An Unearthly Child (2) - The Cave of Skulls", to: "S01E02" },
   { for: "Doctor Who - S01E01 (001) - An Unearthly Child (3) - The Forest of Fear", to: "S01E03" },
@@ -61,5 +62,17 @@ var xvid = [
   { for: "Doctor Who - S01E08 (008) - The Reign of Terror (5) - A Bargain of Necessity (Recon)", to: "S01E41 - [RECON]" },
   { for: "Doctor Who - S01E08 (008) - The Reign of Terror (6) - Prisoners of Conciergerie", to: "S01E42" },
   // ================== END OF SEASON 1 ============================
+  // ================== START SEASON 2 =============================
+  { for: "Doctor Who - S02E01 (009) - Planet of Giants (1) - Planet of Giants", to: "S02E01" },
+  { for: "Doctor Who - S02E01 (009) - Planet of Giants (2) - Dangerous Journey", to: "S02E02" },
+  { for: "Doctor Who - S02E01 (009) - Planet of Giants (3) - Crisis", to: "S02E03" },
+  { for: "Doctor Who - S02E02 (010) - The Dalek Invasion of Earth (1) - World's End", to: "S02E04" },
+  { for: "Doctor Who - S02E02 (010) - The Dalek Invasion of Earth (2) - The Daleks", to: "S02E05" },
+  { for: "Doctor Who - S02E02 (010) - The Dalek Invasion of Earth (3) - Day of Reckoning", to: "S02E06" },
+  { for: "Doctor Who - S02E02 (010) - The Dalek Invasion of Earth (4) - The End of Tomorrow", to: "S02E07" },
+  { for: "Doctor Who - S02E02 (010) - The Dalek Invasion of Earth (5) - The Waking Ally", to: "S02E08" },
+  { for: "Doctor Who - S02E02 (010) - The Dalek Invasion of Earth (6) - Flashpoint", to: "S02E09" },
+  { for: "Doctor Who - S02E03 (011) - The Rescue (1) - The Powerful Enemy", to: "S02E10" },
+  { for: "Doctor Who - S02E03 (011) - The Rescue (2) - Desperate Measures", to: "S02E11" }
 ];
 module.exports = { fileManipulation };
